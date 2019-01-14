@@ -12,6 +12,7 @@ node_modules/
 # output
 .nuxt/
 dist/
+coverage/
 
 # dotenv environment variables file
 .env
