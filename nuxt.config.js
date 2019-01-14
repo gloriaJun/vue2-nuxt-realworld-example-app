@@ -27,6 +27,10 @@ export default {
     ],
   },
 
+  router: {
+    linkActiveClass: 'active'
+  },
+
   /**
    * Build configuration
    */
