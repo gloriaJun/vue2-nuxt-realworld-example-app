@@ -1,0 +1,12 @@
+# Created by .ignore support plugin (hsz.mobi)
+
+.nuxt/
+node_modules/
+
+
+# lock
+yarn.lock
+
+# ide
+.idea
+.vscode
