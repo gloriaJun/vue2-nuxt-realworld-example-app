@@ -1,7 +1,17 @@
 <template>
-  <div id="app"><nuxt /></div>
+  <div id="app">
+    <app-header />
+    <nuxt />
+  </div>
 </template>
 
 <script>
-export default {};
+import AppHeader from '@/components/AppHeader.vue';
+
+export default {
+  name: 'DefaultLayout',
+  components: {
+    AppHeader,
+  },
+};
 </script>
