@@ -9,10 +9,21 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "analyze": "nuxt build --analyze"
+    "analyze": "nuxt build --analyze",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore ."
   },
   "dependencies": {
     "axios": "^0.18.0",
     "nuxt": "^2.3.4"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.12.0",
+    "eslint-config-prettier": "^3.4.0",
+    "eslint-loader": "^2.1.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-vue": "^5.1.0",
+    "prettier": "^1.15.3"
   }
 }
