@@ -20,10 +20,9 @@ module.exports = {
     "jest-serializer-vue"
   ],
   collectCoverage: true,
-  // collectCoverageFrom: [
-  //   "**/components/*.{js,vue}",
-  //   "**/pages/*.{js,vue}",
-  //   "!**/node_modules/**"
-  // ],
+  collectCoverageFrom: [
+    "**/components/**/*.{js,vue}",
+    "!**/node_modules/**"
+  ],
   coverageReporter: ["html", "text-summary"],
 }
