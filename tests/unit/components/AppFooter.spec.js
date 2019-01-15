@@ -8,9 +8,22 @@ describe('AppFooter.vue', () => {
     expect(wrapper.element).toMatchSnapshot();
   });
 
-  test('active class to home', () => {
-    // const wrapper = mount(Header);
-    // expect(wrapper.element).toMatchSnapshot();
+  test('check logo link', () => {
+    const siteName = 'siteName';
+    const wrapper = mount(AppFooter, {
+      propsData: { siteName: siteName }
+    });
+
+    wrapper.find('.logo-font').trigger('click');
+    expect(window.location.href).toBe(`http://${window.location.host}/`);
   });
 
+  test('check logo name', () => {
+    const siteName = 'siteName';
+    const wrapper = mount(AppFooter, {
+      propsData: { siteName: siteName }
+    });
+
+    expect(wrapper.find('.logo-font').text()).toBe(siteName);
+  });
 })
