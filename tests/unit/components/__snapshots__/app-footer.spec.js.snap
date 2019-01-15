@@ -10,7 +10,7 @@ exports[`AppFooter.vue snapshot 1`] = `
       to="/"
     >
       
-      
+      siteName
     
     </nuxt-link>
      

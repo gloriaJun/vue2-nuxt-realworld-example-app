@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <app-header />
+    <app-header
+      :site-name="siteName"
+    />
     <nuxt />
     <app-footer
       :site-name="siteName"
