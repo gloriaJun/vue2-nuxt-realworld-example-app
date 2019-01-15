@@ -1,7 +1,29 @@
 <template>
-  <div id="app"><nuxt /></div>
+  <div id="app">
+    <app-header
+      :site-name="siteName"
+    />
+    <nuxt />
+    <app-footer
+      :site-name="siteName"
+    />
+  </div>
 </template>
 
 <script>
-export default {};
+import AppHeader from '@/components/app-header.vue';
+import AppFooter from '@/components/app-footer.vue';
+
+export default {
+  name: 'DefaultLayout',
+  components: {
+    AppHeader,
+    AppFooter,
+  },
+  data() {
+    return {
+      siteName: 'conduit',
+    };
+  },
+};
 </script>

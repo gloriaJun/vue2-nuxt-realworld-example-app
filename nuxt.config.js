@@ -11,6 +11,7 @@ export default {
       },
     ],
     link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
         rel: 'stylesheet',
         href: '//code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css',
@@ -25,6 +26,10 @@ export default {
         href: '//demo.productionready.io/main.css',
       },
     ],
+  },
+
+  router: {
+    linkActiveClass: 'active'
   },
 
   /**
