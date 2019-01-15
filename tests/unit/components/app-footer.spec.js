@@ -1,15 +1,18 @@
 import { mount } from '@vue/test-utils';
 import AppFooter from '@/components/app-footer.vue';
 
+const siteName = 'siteName';
+
 describe('AppFooter.vue', () => {
 
   test('snapshot', () => {
-    const wrapper = mount(AppFooter);
+    const wrapper = mount(AppFooter, {
+      propsData: { siteName: siteName }
+    });
     expect(wrapper.element).toMatchSnapshot();
   });
 
   test('check logo link', () => {
-    const siteName = 'siteName';
     const wrapper = mount(AppFooter, {
       propsData: { siteName: siteName }
     });
@@ -19,7 +22,6 @@ describe('AppFooter.vue', () => {
   });
 
   test('check logo name', () => {
-    const siteName = 'siteName';
     const wrapper = mount(AppFooter, {
       propsData: { siteName: siteName }
     });
