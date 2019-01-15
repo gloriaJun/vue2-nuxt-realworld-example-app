@@ -1,8 +1,11 @@
 <template>
   <nav class="navbar navbar-light">
     <div class="container">
-      <nuxt-link class="navbar-brand" to="/">
-        conduit
+      <nuxt-link
+        class="navbar-brand"
+        to="/"
+      >
+        {{ siteName }}
       </nuxt-link>
 
       <ul class="nav navbar-nav pull-xs-right">
@@ -27,7 +30,7 @@
         <li class="nav-item">
           <nuxt-link
             class="nav-link"
-            to="/setting"
+            to="/settings"
           >
             <i class="ion-gear-a" />&nbsp;Settings
           </nuxt-link>
@@ -36,7 +39,7 @@
         <li class="nav-item">
           <nuxt-link
             class="nav-link"
-            to="/signUp"
+            to="/register"
           >
             Sign up
           </nuxt-link>
@@ -49,7 +52,12 @@
 <script>
 export default {
   name: 'AppHeader',
-  mounted() {
+  props: {
+    siteName: {
+      type: String,
+      default: '',
+      require: false,
+    },
   },
 };
 </script>
