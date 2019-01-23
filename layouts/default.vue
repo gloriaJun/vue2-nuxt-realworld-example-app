@@ -22,8 +22,12 @@ export default {
   },
   data() {
     return {
-      siteName: 'conduit',
     };
+  },
+  computed: {
+    siteName () {
+       return this.$store.state.siteName;
+    },
   },
 };
 </script>
