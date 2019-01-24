@@ -7,14 +7,16 @@ describe('Header.vue', () => {
 
   test('snapshot', () => {
     const wrapper = mount(AppHeader, {
-      propsData: { siteName: siteName }
+      propsData: { siteName: siteName },
+      stubs: ['nuxt-link'],
     });
     expect(wrapper.element).toMatchSnapshot();
   });
 
   test('check brand link', () => {
     const wrapper = mount(AppHeader, {
-      propsData: { siteName: siteName }
+      propsData: { siteName: siteName },
+      stubs: ['nuxt-link'],
     });
 
     wrapper.find('.navbar-brand').trigger('click');
@@ -23,7 +25,8 @@ describe('Header.vue', () => {
 
   test('check brand name', () => {
     const wrapper = mount(AppHeader, {
-      propsData: { siteName: siteName }
+      propsData: { siteName: siteName },
+      stubs: ['nuxt-link'],
     });
 
     expect(wrapper.find('.navbar-brand').text()).toBe(siteName);
@@ -31,7 +34,8 @@ describe('Header.vue', () => {
 
   test('check home link', () => {
     const wrapper = mount(AppHeader, {
-      propsData: { siteName: siteName }
+      propsData: { siteName: siteName },
+      stubs: ['nuxt-link'],
     });
 
     const el = wrapper.findAll('li.nav-item');

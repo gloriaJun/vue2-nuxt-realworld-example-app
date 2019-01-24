@@ -7,14 +7,16 @@ describe('AppFooter.vue', () => {
 
   test('snapshot', () => {
     const wrapper = mount(AppFooter, {
-      propsData: { siteName: siteName }
+      propsData: { siteName: siteName },
+      stubs: ['nuxt-link'],
     });
     expect(wrapper.element).toMatchSnapshot();
   });
 
   test('check logo link', () => {
     const wrapper = mount(AppFooter, {
-      propsData: { siteName: siteName }
+      propsData: { siteName: siteName },
+      stubs: ['nuxt-link'],
     });
 
     wrapper.find('.logo-font').trigger('click');
@@ -23,7 +25,8 @@ describe('AppFooter.vue', () => {
 
   test('check logo name', () => {
     const wrapper = mount(AppFooter, {
-      propsData: { siteName: siteName }
+      propsData: { siteName: siteName },
+      stubs: ['nuxt-link'],
     });
 
     expect(wrapper.find('.logo-font').text()).toBe(siteName);

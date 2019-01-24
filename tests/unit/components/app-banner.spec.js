@@ -7,7 +7,7 @@ describe('Banner.vue', () => {
 
   test('snapshot', () => {
     const wrapper = mount(AppBanner, {
-      propsData: { siteName: siteName }
+      propsData: { siteName: siteName },
     });
     expect(wrapper.element).toMatchSnapshot();
   });

@@ -7,14 +7,14 @@ exports[`Header.vue snapshot 1`] = `
   <div
     class="container"
   >
-    <nuxt-link
+    <nuxt-link-stub
       class="navbar-brand"
       to="/"
     >
       
       siteName
     
-    </nuxt-link>
+    </nuxt-link-stub>
      
     <ul
       class="nav navbar-nav pull-xs-right"
@@ -22,20 +22,20 @@ exports[`Header.vue snapshot 1`] = `
       <li
         class="nav-item"
       >
-        <nuxt-link
+        <nuxt-link-stub
           class="nav-link"
           to="/"
         >
           
           Home
         
-        </nuxt-link>
+        </nuxt-link-stub>
       </li>
        
       <li
         class="nav-item"
       >
-        <nuxt-link
+        <nuxt-link-stub
           class="nav-link"
           to="/post"
         >
@@ -44,13 +44,13 @@ exports[`Header.vue snapshot 1`] = `
           />
            New Post
         
-        </nuxt-link>
+        </nuxt-link-stub>
       </li>
        
       <li
         class="nav-item"
       >
-        <nuxt-link
+        <nuxt-link-stub
           class="nav-link"
           to="/settings"
         >
@@ -59,20 +59,20 @@ exports[`Header.vue snapshot 1`] = `
           />
            Settings
         
-        </nuxt-link>
+        </nuxt-link-stub>
       </li>
        
       <li
         class="nav-item"
       >
-        <nuxt-link
+        <nuxt-link-stub
           class="nav-link"
           to="/register"
         >
           
           Sign up
         
-        </nuxt-link>
+        </nuxt-link-stub>
       </li>
     </ul>
   </div>
