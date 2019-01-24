@@ -12,8 +12,8 @@ branches:
     - master
 
 install:
-  - npm install
-  - npm run generate
+  - yarn install
+  - yarn generate
 
 deploy:
   provider: pages
