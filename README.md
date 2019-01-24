@@ -1,5 +1,8 @@
 # vue2-nuxt-realworld-example-app
 
+## Demo Page
+https://gloriajun.github.io/vue2-nuxt-realworld-example-app
+
 ## Getting Start
 
 ### Install
