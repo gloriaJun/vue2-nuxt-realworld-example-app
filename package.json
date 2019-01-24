@@ -15,7 +15,8 @@
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
     "test": "jest --coverage",
-    "test:unit": "jest --coverage"
+    "test:unit": "jest --coverage",
+    "test:snapshot": "jest --updateSnapshot"
   },
   "dependencies": {
     "axios": "^0.18.0",
