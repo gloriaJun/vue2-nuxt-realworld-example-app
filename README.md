@@ -1,5 +1,7 @@
 # vue2-nuxt-realworld-example-app
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/gloriaJun/vue2-nuxt-realworld-example-app.svg)](https://greenkeeper.io/)
+
 ## Demo Page
 https://gloriajun.github.io/vue2-nuxt-realworld-example-app
 
