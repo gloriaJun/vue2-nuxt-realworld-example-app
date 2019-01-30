@@ -6,8 +6,7 @@
 [![dependencies Status](https://david-dm.org/gloriaJun/vue2-nuxt-realworld-example-app/status.svg)](https://david-dm.org/gloriaJun/vue2-nuxt-realworld-example-app)
 [![devDependencies Status](https://david-dm.org/gloriaJun/vue2-nuxt-realworld-example-app/dev-status.svg)](https://david-dm.org/gloriaJun/vue2-nuxt-realworld-example-app?type=dev)
 
-## Demo Page
-https://gloriajun.github.io/vue2-nuxt-realworld-example-app
+**[Demo Page](https://gloriajun.github.io/vue2-nuxt-realworld-example-app)**
 
 ## Getting Start
 

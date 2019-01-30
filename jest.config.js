@@ -24,5 +24,5 @@ module.exports = {
     "**/components/**/*.{js,vue}",
     "!**/node_modules/**"
   ],
-  coverageReporter: ["html", "text-summary"],
+  // coverageReporter: ["html", "text-summary"],
 }
