@@ -1,5 +1,6 @@
 # vue2-nuxt-realworld-example-app
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/054756f1730f44d58a6b00f095456789)](https://app.codacy.com/app/pureainu/vue2-nuxt-realworld-example-app?utm_source=github.com&utm_medium=referral&utm_content=gloriaJun/vue2-nuxt-realworld-example-app&utm_campaign=Badge_Grade_Dashboard)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c5321fe3a07f4774b9ce5c2af8c0a6f0)](https://app.codacy.com/app/pureainu/vue2-nuxt-realworld-example-app?utm_source=github.com&utm_medium=referral&utm_content=gloriaJun/vue2-nuxt-realworld-example-app&utm_campaign=Badge_Grade_Settings)
 [![Build Status](https://travis-ci.com/gloriaJun/vue2-nuxt-realworld-example-app.svg?branch=master)](https://travis-ci.com/gloriaJun/vue2-nuxt-realworld-example-app)
 [![Greenkeeper badge](https://badges.greenkeeper.io/gloriaJun/vue2-nuxt-realworld-example-app.svg)](https://greenkeeper.io/)
