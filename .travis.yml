@@ -20,7 +20,7 @@ install:
   - npm run generate
 
 after_script: # Upload coverage reports
-  - COVERALLS_REPO_TOKEN=COVERALLS_REPO_TOKEN npm run coveralls
+  - COVERALLS_REPO_TOKEN=$COVERALLS_REPO_TOKEN npm run coveralls
 
 deploy:
   provider: pages
@@ -35,6 +35,6 @@ notifications:
   email: false
   slack:
     rooms:
-      - glriaroom:GJpK4bqmhqF9CtV1l4qVSp6Q#devops
+      - glriaroom:$SLACK_TOKEN#devops
     on_success: change # default : always
     on_failure: always # default : always

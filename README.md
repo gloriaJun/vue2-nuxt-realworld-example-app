@@ -72,7 +72,7 @@ notifications:
   email: false
   slack:
     rooms:
-      - glriaroom:GJpK4bqmhqF9CtV1l4qVSp6Q#devops
+      - glriaroom:$SLACK_TOKEN#devops
     on_success: change # default : always
     on_failure: always # default : always
 ```
