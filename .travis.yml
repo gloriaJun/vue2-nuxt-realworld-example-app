@@ -19,6 +19,9 @@ install:
   - npm install
   - npm run generate
 
+after_script: # Upload coverage reports
+  - COVERALLS_REPO_TOKEN=COVERALLS_REPO_TOKEN npm run coveralls
+
 deploy:
   provider: pages
   skip-cleanup: true

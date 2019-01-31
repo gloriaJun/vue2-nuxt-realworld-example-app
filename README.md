@@ -21,3 +21,58 @@ yarn install # or npm run install
 ```bash
 yarn dev # or npm run dev
 ```
+
+## 연동한 도구들
+
+### CI/CD
+
+일부 도구 연동을 위해서는 CI 도구 연동이 필요
+
+#### Travis CI
+
+- https://travis-ci.com/gloriaJun/vue2-nuxt-realworld-example-app
+
+### Dependencies
+
+#### Greenkeeper
+
+- CI 도구가 연동되어있어야함.
+- https://account.greenkeeper.io/account/gloriaJun
+- 라이브러리 버전이 업데이트된 경우, 해당 라이브러리의 버전을 업데이타한 후에 빌드 수행 후에 결과를 PR로 남겨준다. 
+  - https://github.com/gloriaJun/vue2-nuxt-realworld-example-app/pull/5
+  
+#### David
+
+- 현재 설치된 라이브러리들과 설치된 버전 그리고 업데이트 가능한 최신 버전을 리스트 형태로 출력해준다.
+- 각 라이브러리들의 관게를 트리로 출력해준다.
+
+
+### Code Quality
+
+#### Codacy
+
+- https://app.codacy.com/project/pureainu/vue2-nuxt-realworld-example-app/dashboard
+
+### Code Coverage
+
+#### Coveralls
+
+- CI 도구가 연동되어있어야함.
+- 설정 참고 : https://rants.broonix.ca/adding-coverage-reports
+
+#### Codecov
+
+
+### Slack
+
+CI 도구에서 Slack으로 빌드 결과를 전달받기 위한 설정을 하였음.
+
+```yml
+notifications:
+  email: false
+  slack:
+    rooms:
+      - glriaroom:GJpK4bqmhqF9CtV1l4qVSp6Q#devops
+    on_success: change # default : always
+    on_failure: always # default : always
+```
