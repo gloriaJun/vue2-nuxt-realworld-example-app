@@ -16,7 +16,8 @@
     "lintfix": "eslint --fix --ext .js,.vue --ignore-path .gitignore .",
     "test": "jest --coverage",
     "test:snapshot": "jest --updateSnapshot",
-    "coveralls": "cat ./coverage/lcov.info | coveralls"
+    "coveralls": "cat ./coverage/lcov.info | coveralls",
+    "codecov": "cat ./coverage/lcov.info | codecov"
   },
   "dependencies": {
     "axios": "^0.18.0",

@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.com/gloriaJun/vue2-nuxt-realworld-example-app.svg?branch=master)](https://travis-ci.com/gloriaJun/vue2-nuxt-realworld-example-app)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/c5321fe3a07f4774b9ce5c2af8c0a6f0)](https://app.codacy.com/app/pureainu/vue2-nuxt-realworld-example-app?utm_source=github.com&utm_medium=referral&utm_content=gloriaJun/vue2-nuxt-realworld-example-app&utm_campaign=Badge_Grade_Settings)
+[![codecov](https://codecov.io/gh/gloriaJun/vue2-nuxt-realworld-example-app/branch/master/graph/badge.svg)](https://codecov.io/gh/gloriaJun/vue2-nuxt-realworld-example-app)
 [![Coverage Status](https://coveralls.io/repos/github/gloriaJun/vue2-nuxt-realworld-example-app/badge.svg?branch=master)](https://coveralls.io/github/gloriaJun/vue2-nuxt-realworld-example-app?branch=master)
 [![Greenkeeper badge](https://badges.greenkeeper.io/gloriaJun/vue2-nuxt-realworld-example-app.svg)](https://greenkeeper.io/)
 [![dependencies Status](https://david-dm.org/gloriaJun/vue2-nuxt-realworld-example-app/status.svg)](https://david-dm.org/gloriaJun/vue2-nuxt-realworld-example-app)
