@@ -67,7 +67,8 @@ export default {
   },
   computed: {
     siteName () {
-       return this.$store.state.siteName;
+       // return this.$store.state.siteName;
+      return '';
     },
   },
 };

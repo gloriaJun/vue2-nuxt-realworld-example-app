@@ -62,9 +62,39 @@ yarn dev # or npm run dev
 - CI 도구가 연동되어있어야함.
 - https://coveralls.io/github/gloriaJun/vue2-nuxt-realworld-example-app
 - 설정 참고 : https://rants.broonix.ca/adding-coverage-reports
+- `coveralls` 라이브러리 설치 및 빌드 스크립트 수정을 한다.
+```json
+"scripts": {
+  "test": "jest --coverage",
+  "coveralls": "cat ./coverage/lcov.info | coveralls",
+  }
+  "devDependencies": {
+    "coveralls": "^3.0.2",
+  }
+```
+```yml
+after_script: # Upload coverage reports
+  - COVERALLS_REPO_TOKEN=$COVERALLS_REPO_TOKEN npm run coveralls
+```
 
 #### Codecov
 
+- CI 도구가 연동되어있어야함.
+- https://codecov.io/gh/gloriaJun/vue2-nuxt-realworld-example-app
+- `coveralls` 라이브러리 설치 및 빌드 스크립트 수정을 한다.
+```json
+"scripts": {
+  "test": "jest --coverage",
+  "codecov": "cat ./coverage/lcov.info | codecov"
+  }
+  "devDependencies": {
+    "codecov": "^3.1.0",
+  }
+```
+```yml
+after_script: # Upload coverage reports
+  - npm run codecov
+```
 
 ### Slack
 
