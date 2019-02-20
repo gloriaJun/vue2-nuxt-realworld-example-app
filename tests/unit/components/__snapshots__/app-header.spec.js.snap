@@ -1,77 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Header.vue snapshot 1`] = `
-<nav
-  class="navbar navbar-light"
->
-  <div
-    class="container"
-  >
-    <nuxt-link-stub
-      class="navbar-brand"
-      to="/"
-    >
-      
+exports[`Header.vue should match the snapshot 1`] = `
+<nav class="navbar navbar-light">
+  <div class="container">
+    <nuxt-link-stub to="/" class="navbar-brand">
       siteName
-    
     </nuxt-link-stub>
-     
-    <ul
-      class="nav navbar-nav pull-xs-right"
-    >
-      <li
-        class="nav-item"
-      >
-        <nuxt-link-stub
-          class="nav-link"
-          to="/"
-        >
-          
+    <ul class="nav navbar-nav pull-xs-right">
+      <li class="nav-item">
+        <nuxt-link-stub to="/" class="nav-link">
           Home
-        
         </nuxt-link-stub>
       </li>
-       
-      <li
-        class="nav-item"
-      >
-        <nuxt-link-stub
-          class="nav-link"
-          to="/post"
-        >
-          <i
-            class="ion-compose"
-          />
-           New Post
-        
+      <li class="nav-item">
+        <nuxt-link-stub to="/post" class="nav-link"><i class="ion-compose"></i>&nbsp;New Post
         </nuxt-link-stub>
       </li>
-       
-      <li
-        class="nav-item"
-      >
-        <nuxt-link-stub
-          class="nav-link"
-          to="/settings"
-        >
-          <i
-            class="ion-gear-a"
-          />
-           Settings
-        
+      <li class="nav-item">
+        <nuxt-link-stub to="/settings" class="nav-link"><i class="ion-gear-a"></i>&nbsp;Settings
         </nuxt-link-stub>
       </li>
-       
-      <li
-        class="nav-item"
-      >
-        <nuxt-link-stub
-          class="nav-link"
-          to="/register"
-        >
-          
+      <li class="nav-item">
+        <nuxt-link-stub to="/register" class="nav-link">
           Sign up
-        
         </nuxt-link-stub>
       </li>
     </ul>

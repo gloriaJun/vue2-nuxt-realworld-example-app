@@ -1,35 +1,16 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`AppFooter.vue snapshot 1`] = `
+exports[`AppFooter.vue should match the snapshot 1`] = `
 <footer>
-  <div
-    class="container"
-  >
-    <nuxt-link-stub
-      class="logo-font"
-      to="/"
-    >
-      
+  <div class="container">
+    <nuxt-link-stub to="/" class="logo-font">
       siteName
-    
-    </nuxt-link-stub>
-     
-    <span
-      class="attribution"
-    >
-      
+    </nuxt-link-stub> <span class="attribution">
       An interactive learning project from
-      
-      <a
-        href="https://thinkster.io"
-      >
-        
+      <a href="https://thinkster.io">
         Thinkster
-      
-      </a>
-      .
-      Code & design licensed under MIT.
-    
+      </a>.
+      Code &amp; design licensed under MIT.
     </span>
   </div>
 </footer>

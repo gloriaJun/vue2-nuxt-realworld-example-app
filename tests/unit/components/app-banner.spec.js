@@ -1,15 +1,15 @@
-import { mount } from '@vue/test-utils';
+import { shallowMount } from '@vue/test-utils';
 import AppBanner from '@/components/app-banner.vue';
 
 const siteName = 'siteName';
 
 describe('Banner.vue', () => {
 
-  test('snapshot', () => {
-    const wrapper = mount(AppBanner, {
+  it('should match the snapshot', () => {
+    const wrapper = shallowMount(AppBanner, {
       propsData: { siteName: siteName },
     });
-    expect(wrapper.element).toMatchSnapshot();
+    expect(wrapper.html()).toMatchSnapshot();
   });
 
 })

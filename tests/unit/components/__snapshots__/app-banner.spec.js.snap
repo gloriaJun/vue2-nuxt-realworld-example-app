@@ -1,23 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Banner.vue snapshot 1`] = `
-<div
-  class="banner"
->
-  <div
-    class="container"
-  >
-    <h1
-      class="logo-font"
-    >
-      
+exports[`Banner.vue should match the snapshot 1`] = `
+<div class="banner">
+  <div class="container">
+    <h1 class="logo-font">
       siteName
-    
     </h1>
-     
-    <p>
-      A place to share your knowledge.
-    </p>
+    <p>A place to share your knowledge.</p>
   </div>
 </div>
 `;
