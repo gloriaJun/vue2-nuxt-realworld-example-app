@@ -16,7 +16,7 @@ describe('IndexPage', () => {
     }
   }
 
-  test('renders the component', () => {
+  it('should match the snapshot', () => {
     // given: nothing
     // when: component is mounted
     const { wrapper } = build();
