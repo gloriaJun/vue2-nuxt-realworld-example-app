@@ -7,7 +7,7 @@ module.exports = {
   ],
   transform: {
     // process `*.vue` files with `vue-jest`
-    ".*\\.(vue)$": "vue-jest",
+    ".*\\.(vue)$": "<rootDir>/node_modules/vue-jest",
     // process js with `babel-jest`
     "^.+\\.js$": "<rootDir>/node_modules/babel-jest"
   },
@@ -22,7 +22,8 @@ module.exports = {
   collectCoverage: true,
   collectCoverageFrom: [
     "**/components/**/*.{js,vue}",
+    "**/pages/**/*.{js,vue}",
     "!**/node_modules/**"
   ],
-  // coverageReporter: ["html", "text-summary"],
+  // coverageReporters: ["html", "text-summary"],
 }
