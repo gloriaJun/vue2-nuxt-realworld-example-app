@@ -1,12 +1,23 @@
-import { mount } from '@vue/test-utils';
+import {
+  mount,
+  createLocalVue,
+} from '@vue/test-utils';
+import Vuex from 'vuex';
 import IndexPage from '@/pages/index.vue';
 import AppBanner from '@/components/app-banner.vue';
+import initialStore from '@/store';
+
+const localVue = createLocalVue();
+localVue.use(Vuex);
 
 describe('IndexPage', () => {
+  let store;
 
   const build = () => {
     const wrapper = mount(IndexPage, {
       stubs: ['nuxt-link'],
+      localVue,
+      store: store,
     });
 
     return {
@@ -15,6 +26,11 @@ describe('IndexPage', () => {
       // userProfile: () => wrapper.find(VUserProfile)
     }
   }
+
+  // reset variables when test called
+  beforeEach(() => {
+    store = initialStore;
+  })
 
   it('should match the snapshot', () => {
     // given: nothing
