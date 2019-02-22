@@ -54,6 +54,9 @@
 </template>
 
 <script>
+import {
+  mapState,
+} from 'vuex';
 import AppBanner from '@/components/app-banner.vue';
 
 export default {
@@ -66,10 +69,9 @@ export default {
     };
   },
   computed: {
-    siteName () {
-       // return this.$store.state.siteName;
-      return '';
-    },
+    ...mapState({
+      siteName: 'siteName',
+    }),
   },
 };
 </script>

@@ -25,7 +25,8 @@ export default {
       require: false,
     },
   },
-  mounted() {
+  data () {
+    return {};
   },
 };
 </script>
