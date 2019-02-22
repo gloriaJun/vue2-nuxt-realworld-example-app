@@ -109,3 +109,8 @@ notifications:
     on_success: change # default : always
     on_failure: always # default : always
 ```
+
+## 참고한 자료들
+
+- [gothinkster/realworld-starter-kit](https://github.com/gothinkster/realworld-starter-kit)
+- [gothinkster/vue-realworld-example-app](https://github.com/gothinkster/vue-realworld-example-app)
