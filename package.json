@@ -20,7 +20,7 @@
     "codecov": "cat ./coverage/lcov.info | codecov"
   },
   "dependencies": {
-    "axios": "^0.18.0",
+    "axios": "^0.19.0",
     "nuxt": "^2.3.4"
   },
   "devDependencies": {
